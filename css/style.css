@@ -49,6 +49,9 @@
 .body-text h1 {
   font-family: "Playfair Display", "serif";
 }
+.body-text h1::first-letter {
+  font-size: 100px;
+}
 .body-text p {
   width: 50%;
   margin-top: 20px;
@@ -174,7 +177,7 @@
   margin-top: 40px;
 }
 .owl-dot {
-  height: 15px;
+  height: 10px;
   width: 45px;
   margin: 0 5px;
   outline: none;
@@ -185,4 +188,49 @@
 .owl-dot.active,
 .owl-dot:hover {
   background: var(--white) !important;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 1160px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.sample-product img {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+.description h3 {
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.description h4 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+}
+.description p {
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.description .btns {
+  background: var(--dark);
+  color: var(--white);
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 200px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 12px;
 }
