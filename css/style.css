@@ -31,7 +31,7 @@
 }
 #home .about h1 {
   font-size: 60px;
-  font-family: "Playfair display", "Serif";
+  font-family: "Playfair Display", "serif";
   color: var(--white);
   margin-right: 30px;
 }
@@ -46,9 +46,13 @@
   color: var(--white);
   padding: 60px;
 }
+.body-text h1 {
+  font-family: "Playfair Display", "serif";
+}
 .body-text p {
   width: 50%;
   margin-top: 20px;
+  font-family: sans-serif;
 }
 .gallery {
   display: flex;
@@ -180,5 +184,5 @@
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background:var(--white) !important;
+  background: var(--white) !important;
 }
